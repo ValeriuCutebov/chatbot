@@ -18,8 +18,6 @@ def call():
     inputer = droid.recognizeSpeech()
     droid.setClipboard(inputer.result)
     inputer1 = inputer.result
-    if inputer1 == 'NoneType':
-        call()
     print (uname + ">> " + " " + inputer1)
     for i in predic:
         if inputer1+'\n'== i:
