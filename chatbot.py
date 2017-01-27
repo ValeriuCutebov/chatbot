@@ -11,16 +11,22 @@ username = droid.recognizeSpeech()
 droid.setClipboard(username.result)
 uname = username.result
 droid.ttsSpeak("hello " + uname)
+print ("Hello " + uname)
 
 def call():
     time.sleep(1)
     inputer = droid.recognizeSpeech()
     droid.setClipboard(inputer.result)
-    inputer1 = inputer.result    
+    inputer1 = inputer.result
+    if inputer1 == NoneType:
+        call()
+    print (uname + ">> " + " " + inputer1)
     for i in predic:
         if inputer1+'\n'== i:
             index = predic.index(i)
-            droid.ttsSpeak(answers [index])
+            answer = answers[index]
+            droid.ttsSpeak(answer)
+            print ("Bot >> " + answer)
             call()
     call()
         
