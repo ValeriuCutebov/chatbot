@@ -16,16 +16,5 @@ print ("Hello " + uname)
 
 **And than you can start the conversation only by talking to the phone, without typing anything.. :D  **
 
-```markdown
-Syntax highlighted code block
-
-
-# Header 1
-## Header 2
-### Header 3
-
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](enn-eaa.blogspot.com) and ![Image](src)
+[enn-eaa.blogspot.com](enn-eaa.blogspot.com) and ![Image](src)
 ```
