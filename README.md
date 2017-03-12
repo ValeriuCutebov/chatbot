@@ -1,37 +1,31 @@
 ## Chatbot made with Python
 
-You can use the [editor on GitHub](https://github.com/eneajaho/chatbot/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This Python script is made for running only in Android devices. You can run this script using Python3 apk, that you can get from Playstore.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 
+How script works? 
 
-### Markdown
+It has 2 databases, one for questions and one for answers (ques.txt, ans.txt). 
+To have a wonderful conversation you should add answers and questions to databases by yourself... 
+Run the script and you will be asked for your name.
+After that, you will be saluted... 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+```markdown
+print ("Hello " + uname)
+```
+
+**And than you can start the conversation only by talking to the phone, without typing anything.. :D  **
 
 ```markdown
 Syntax highlighted code block
+
 
 # Header 1
 ## Header 2
 ### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](enn-eaa.blogspot.com) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/eneajaho/chatbot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
