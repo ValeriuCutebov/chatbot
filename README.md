@@ -16,5 +16,5 @@ print ("Hello " + uname)
 
 **And than you can start the conversation only by talking to the phone, without typing anything.. :D  **
 
-[enn-eaa.blogspot.com](enn-eaa.blogspot.com) and ![Image](src)
+[https://enn-eaa.blogspot.com](Enea's Blog) 
 ```
